@@ -1,3 +1,7 @@
+import React from "react";
+import { useContext } from "react";
+import UserContext from "./UserContext";
+
 function UserProfile (props) {
     return(<>
         <h2>{props.name}</h2>
